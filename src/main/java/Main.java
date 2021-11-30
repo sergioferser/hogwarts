@@ -51,5 +51,19 @@ public class Main {
 //            System.out.println("Nombre: " + objs[1] + " " + objs[2] + "       ID: " + objs[0]);
 //        }
 //        Fin apartado 3-C
+//        Apartado extra 1
+//        EntityManagerFactory emf = Persistence.createEntityManagerFactory("default");
+//        EntityManager em = emf.createEntityManager();
+//        em.getTransaction().begin();
+//        Query q=em.createQuery("delete from Person p where p.id=:id");
+//
+//        q.setParameter("id",2);
+//        int del= q.executeUpdate();
+//
+//        em.getTransaction().commit();
+//        em.close();
+//        emf.close();
+//      Fin Apartado extra 1
+
     }
 }
