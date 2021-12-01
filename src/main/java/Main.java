@@ -50,7 +50,7 @@ public class Main {
 //        for (Object o : list) {
 //            Object[] objs = (Object[]) o;
 //            System.out.println("Nombre: " + objs[0] + " " + objs[1] + "       ID_Curso: " + objs[2]);
-//        }select * from person where id in(select receiver from house_points)
+//        }
 //        Fin apartado 3-B
 //        Apartado 3-C
 //        EntityManagerFactory emf = Persistence.createEntityManagerFactory("default");

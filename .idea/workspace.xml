@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39535803-7420-41d6-a65a-8663d9342655" name="Changes" comment="Apartado 3">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aa20dd87-e3bd-48be-9c08-d52b6077b5c3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/aa20dd87-e3bd-48be-9c08-d52b6077b5c3.xml" afterDir="false" />
+    <list default="true" id="39535803-7420-41d6-a65a-8663d9342655" name="Changes" comment="Apartado 2 NamedQuerys Realizado - Codigo en Main y Clase Person">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/House.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/HousePoints.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/HousePoints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/Person.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,7 @@
       <workItem from="1638204911084" duration="2511000" />
       <workItem from="1638293032815" duration="64000" />
       <workItem from="1638293099159" duration="4241000" />
-      <workItem from="1638344103492" duration="5059000" />
+      <workItem from="1638344103492" duration="8534000" />
     </task>
     <task id="LOCAL-00001" summary="Apartado 1">
       <created>1638293560573</created>
@@ -103,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638296917301</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Apartado 2 NamedQuerys Realizado - Codigo en Main y Clase Person">
+      <created>1638349313376</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638349313376</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Apartado 1" />
     <MESSAGE value="Apartado 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apartado 3" />
+    <MESSAGE value="Apartado 2 NamedQuerys Realizado - Codigo en Main y Clase Person" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apartado 2 NamedQuerys Realizado - Codigo en Main y Clase Person" />
   </component>
 </project>
