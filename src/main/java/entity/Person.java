@@ -4,6 +4,10 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
+@NamedQueries({
+        @NamedQuery(name="Person.RecibeMas", query="select p from Person p inner join HousePoints as hp on p.id = hp.personByGiver.id group by hp.personByGiver.id having sum(hp.points)>=all(SELECT sum(e2.points) FROM HousePoints e2 group by e2.personByReceiver)"),
+        @NamedQuery(name="Person.EntregaMas", query="select p from Person p inner join HousePoints as hp on p.id = hp.personByGiver.id group by hp.personByGiver.id having sum(hp.points)<=all(SELECT sum(e2.points) FROM HousePoints e2 group by e2.personByReceiver)"),
+})
 @Table(name="person")
 public class Person {
     private int id;

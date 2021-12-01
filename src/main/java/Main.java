@@ -18,6 +18,18 @@ public class Main {
 //            System.out.println("id: "+person.getId()+ " nombre: "+person.getFirstName()+" "+ person.getLastName());
 //        });
 //        Fin apartado 1
+
+//        Inicio apartado 2
+//        EntityManagerFactory emf = Persistence.createEntityManagerFactory("default");
+//        EntityManager em = emf.createEntityManager();
+//        Query namedQuery = em.createNamedQuery("Person.RecibeMas");
+//        Person personaRecibeMas = (Person) namedQuery.getSingleResult();
+//        System.out.println("La persona que ganó mas puntos es " +personaRecibeMas.getFirstName());
+//        Query namedQuery2 = em.createNamedQuery("Person.EntregaMas");
+//        Person personaEntregaMas = (Person) namedQuery2.getSingleResult();
+//        System.out.println("La persona que entregó mas puntos es " +personaEntregaMas.getFirstName());
+//        Fin apartado 2
+
 //        Apartado 3-A
 //        EntityManagerFactory emf = Persistence.createEntityManagerFactory("default");
 //        EntityManager em = emf.createEntityManager();
